@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.orange-button{
+    @apply rounded-[23px] bg-[#E57709] text-white text-[16px] leading-[19px];
+}
+
+.menu-option{
+    @apply hover:text-[#0679BB];
+}
+
+.hainv-topmenu-expanded{
+    @apply absolute top-10 z-20 w-full bg-white text-center flex flex-col gap-3 animate-slideDown;
+}
+.slick-slide div {
+  max-width: 100%; 
+  transition: transform 0.5s; 
+ }
+
+.slick-slide.slick-center div{
+  transform: scale(2.1);
+}
